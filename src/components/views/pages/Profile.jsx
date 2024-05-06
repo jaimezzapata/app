@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../helpers/Header";
 import { usuarios } from "../../config/dataBase";
+import logo from '../../../assets/user.avif'
 import './Profile.css'
 
 const Profile = () => {
@@ -9,7 +10,7 @@ const Profile = () => {
       <Header />
       <section className="card">
         <section className="imagen">
-          <img src="/public/user.avif" alt="" />
+          <img src={logo} alt="" />
         </section>
         <div className="informacion">
           <section>
